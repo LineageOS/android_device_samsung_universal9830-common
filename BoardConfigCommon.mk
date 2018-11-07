@@ -34,14 +34,6 @@ BOARD_HAVE_BLUETOOTH := true
 # Compatibility Matrix
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
-# Dexpreopt
-ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
-    WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= false
-    WITH_DEXPREOPT := true
-  endif
-endif
-
 # Dynamic Partitions
 BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 9432989696
 BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext vendor product odm
