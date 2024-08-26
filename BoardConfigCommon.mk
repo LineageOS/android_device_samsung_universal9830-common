@@ -153,6 +153,9 @@ BOARD_AVB_RECOVERY_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
+# Zygote
+ZYGOTE_FORCE_64 := true
+
 # Call Samsung LSI board support package
 include hardware/samsung_slsi-linaro/config/BoardConfig9830.mk
 
