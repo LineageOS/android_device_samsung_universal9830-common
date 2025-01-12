@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2023-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,20 +29,6 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
-
-# Audio
-$(call soong_config_set,exynos_audio,PROXY_LIBRARY,//device/samsung/universal9830-common:libaudioproxy)
-$(call soong_config_set,exynos_audio,PREDEFINED_LOW_CAPTURE_DURATION,20)
-$(call soong_config_set,exynos_audio,PREDEFINED_USB_PLAYBACK_DURATION,5)
-$(call soong_config_set,exynos_audio,PREDEFINED_USE_MMAP_HW_VOLUME_CONTROL,true)
-$(call soong_config_set,universal9830AudioVars,use_sec_audio_dynamic_nrec,true)
-$(call soong_config_set,universal9830AudioVars,use_sec_audio_param_update,false)
-$(call soong_config_set,universal9830AudioVars,use_sec_audio_resampler,true)
-$(call soong_config_set,universal9830AudioVars,use_sec_audio_samsungrecord,true)
-$(call soong_config_set,universal9830AudioVars,use_sec_audio_sound_trigger_enabled,true)
-$(call soong_config_set,universal9830AudioVars,use_sec_audio_support_listenback_dspeffect,true)
-$(call soong_config_set,universal9830AudioVars,use_soundtrigger_hal,true)
-$(call soong_config_set,universal9830AudioVars,use_usb_offload,true)
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
@@ -102,9 +88,6 @@ TARGET_USES_VULKAN := true
 
 # HIDL Manifest
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
-
-# Init
-$(call soong_config_set,libinit,vendor_init_lib,//device/samsung/universal9830-common:libinit_exynos9830)
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image
@@ -182,11 +165,6 @@ include device/lineage/sepolicy/exynos/sepolicy.mk
 BOARD_SEPOLICY_TEE_FLAVOR := teegris
 include device/samsung_slsi/sepolicy/sepolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
-
-# SoundTrigger
-$(call soong_config_set,exynos_st,soundtrigger_config_path,$(COMMON_PATH)/configs/sthal)
-$(call soong_config_set,exynos_st,use_soundtrigger_hal_2_3,true)
-$(call soong_config_set,exynos_st,use_soundtrigger_hal_mmap,true)
 
 # USB
 $(call soong_config_set,samsungUsbGadgetVars,gadget_name,10e00000.dwc3)
