@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2023-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,7 +31,6 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Audio
-$(call soong_config_set,exynos_audio,PROXY_LIBRARY,//device/samsung/universal9830-common:libaudioproxy)
 $(call soong_config_set,exynos_audio,PREDEFINED_LOW_CAPTURE_DURATION,20)
 $(call soong_config_set,exynos_audio,PREDEFINED_USB_PLAYBACK_DURATION,5)
 $(call soong_config_set,exynos_audio,PREDEFINED_USE_MMAP_HW_VOLUME_CONTROL,true)
@@ -102,9 +101,6 @@ TARGET_USES_VULKAN := true
 
 # HIDL Manifest
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
-
-# Init
-$(call soong_config_set,libinit,vendor_init_lib,//device/samsung/universal9830-common:libinit_exynos9830)
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image
@@ -184,7 +180,6 @@ include device/samsung_slsi/sepolicy/sepolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # SoundTrigger
-$(call soong_config_set,exynos_st,soundtrigger_config_path,$(COMMON_PATH)/configs/sthal)
 $(call soong_config_set,exynos_st,use_soundtrigger_hal_2_3,true)
 $(call soong_config_set,exynos_st,use_soundtrigger_hal_mmap,true)
 
