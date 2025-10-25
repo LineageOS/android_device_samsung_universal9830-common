@@ -42,6 +42,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.udfps.rc",
+    src: "etc/init/init.udfps.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.gps.rc",
     src: "etc/init/init.gps.rc",
     sub_dir: "init",
