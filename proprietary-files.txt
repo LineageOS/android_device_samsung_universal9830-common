@@ -54,12 +54,10 @@ vendor/firmware/dsp_ivp_pm_do.bin
 vendor/firmware/dsp_master.bin
 vendor/firmware/dsp_reloc_rules.bin
 vendor/firmware/listenbackeffect.bin
-vendor/firmware/rxse.bin
 vendor/firmware/sb_ll.bin
 vendor/firmware/sb_music.bin
 vendor/firmware/sb_others.bin
 vendor/firmware/sv.bin
-vendor/firmware/txse1.bin
 vendor/firmware/txse2.bin
 vendor/firmware/txse3.bin
 vendor/firmware/volumemonitor.bin
@@ -177,7 +175,6 @@ vendor/firmware/libnn.elf
 vendor/firmware/rgb2bayer.bin
 vendor/firmware/usbin.bin
 vendor/firmware/usbout.bin
-vendor/firmware/vts.bin
 vendor/firmware/yuv2bayer.bin
 
 # Proca
@@ -222,18 +219,13 @@ vendor/lib64/libsec_semRil.so
 
 # Sensors
 vendor/lib64/sensors.flicker.so
-vendor/lib64/sensors.grip.so
 
 # Teegris
-vendor/bin/tzdaemon
 vendor/bin/tzts_daemon
-vendor/lib64/libteecl.so
 vendor/lib64/libuuid.so;MODULE_SUFFIX=_vendor
-vendor/tee/00000000-0000-0000-0000-000000010081
 vendor/tee/00000000-0000-0000-0000-000000020081
 vendor/tee/00000000-0000-0000-0000-000048444350
 vendor/tee/00000000-0000-0000-0000-00575644524d
-vendor/tee/00000000-0000-0000-0000-53454d655345
 vendor/tee/00000000-0000-0000-0000-5354494d4552
 vendor/tee/00000000-0000-0000-0000-564c544b5052
 vendor/tee/00000000-0000-0000-0000-64756c444152
