@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ebf0567c_fc227632",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-25T20:55:14Z",
+      "side": 1,
+      "message": "Should start with a capital letter to match ExtremeXT\u0027s commits",
+      "range": {
+        "startLine": 7,
+        "startChar": 22,
+        "endLine": 7,
+        "endChar": 23
+      },
+      "revId": "c4b9ecfd493cdf8c69c8ab23ac9160e4d2366c37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a445de21_5b1b9a55",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-25T20:55:14Z",
+      "side": 1,
+      "message": "This should not be added. Check any older commit for a reference.",
+      "range": {
+        "startLine": 7,
+        "startChar": 13,
+        "endLine": 7,
+        "endChar": 20
+      },
+      "revId": "c4b9ecfd493cdf8c69c8ab23ac9160e4d2366c37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
