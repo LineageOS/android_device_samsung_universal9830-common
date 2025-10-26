@@ -175,7 +175,7 @@ $(call soong_config_set,cbd,protocol,sipc)
 BOARD_SECCOMP_POLICY += $(COMMON_PATH)/seccomp
 
 # Security
-VENDOR_SECURITY_PATCH := 2025-03-01
+VENDOR_SECURITY_PATCH := 2025-07-01
 
 # SELinux
 include device/lineage/sepolicy/exynos/sepolicy.mk
