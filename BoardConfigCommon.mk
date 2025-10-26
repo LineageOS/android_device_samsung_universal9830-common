@@ -90,7 +90,6 @@ DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_CUSTOM_BOOTIMG := true
-BOARD_MKBOOTIMG_ARGS := --base 0x10000000 --pagesize 2048 --dtb_offset 0x00000000 --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100  --header_version 2  
 #BOARD_KERNEL_CMDLINE := The bootloader ignores the cmdline from the boot.img
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_USE_LZ4 := true
@@ -99,6 +98,14 @@ TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
 TARGET_KERNEL_CONFIG := exynos9830_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/universal9830
+
+BOARD_MKBOOTIMG_ARGS := --base 0x10000000
+BOARD_MKBOOTIMG_ARGS += --dtb_offset 0x00000000
+BOARD_MKBOOTIMG_ARGS += --header_version 2
+BOARD_MKBOOTIMG_ARGS += --kernel_offset 0x00008000
+BOARD_MKBOOTIMG_ARGS += --pagesize 2048
+BOARD_MKBOOTIMG_ARGS += --ramdisk_offset 0x01000000
+BOARD_MKBOOTIMG_ARGS += --tags_offset 0x00000100
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
