@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90fcce38_86786eab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-26T16:07:52Z",
+      "side": 1,
+      "message": "You could pick https://review.lineageos.org/c/LineageOS/android_device_samsung_sm7125-common/+/453243 and move this soong_config to the common product makefile.",
+      "revId": "1ef1f25c3e589d7efeb8a505f7c9e0cdf598a07b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
