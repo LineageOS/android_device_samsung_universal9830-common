@@ -16,6 +16,23 @@
       "message": "For some reason, it moves Bruno to CC after push (I\u0027m new to gerrit so I don\u0027t know how does that work)",
       "revId": "3f2a0c9f1826c25df7f9cf09f28a05e206ab08e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39c0dc64_95ece5ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-26T20:42:51Z",
+      "side": 1,
+      "message": "You probably want to pick this also to target device trees.",
+      "revId": "3f2a0c9f1826c25df7f9cf09f28a05e206ab08e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
