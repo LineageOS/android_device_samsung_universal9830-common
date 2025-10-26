@@ -45,6 +45,23 @@
       },
       "revId": "c4b9ecfd493cdf8c69c8ab23ac9160e4d2366c37",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62362dcd_8ae6427d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24387
+      },
+      "writtenOn": "2025-10-26T08:38:00Z",
+      "side": 1,
+      "message": "would it be possible to drop the -common from the commit message so that the commmit history is consistent ? thanks",
+      "revId": "c4b9ecfd493cdf8c69c8ab23ac9160e4d2366c37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
