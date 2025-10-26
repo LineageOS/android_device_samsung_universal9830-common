@@ -33,6 +33,24 @@
       "message": "You probably want to pick this also to target device trees.",
       "revId": "3f2a0c9f1826c25df7f9cf09f28a05e206ab08e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a74bb07c_a3836273",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-26T20:44:12Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_samsung_r8q/+/416051",
+      "parentUuid": "39c0dc64_95ece5ed",
+      "revId": "3f2a0c9f1826c25df7f9cf09f28a05e206ab08e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
