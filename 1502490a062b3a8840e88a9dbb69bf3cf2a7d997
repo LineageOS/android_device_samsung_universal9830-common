@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d84ebc67_1f2950fb",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-26T20:59:41Z",
+      "side": 0,
+      "message": "I just realized that this could be common too. Please check.",
+      "revId": "1502490a062b3a8840e88a9dbb69bf3cf2a7d997",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bc09f1f_a86175ed",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-26T20:59:41Z",
+      "side": 0,
+      "message": "This too.",
+      "revId": "1502490a062b3a8840e88a9dbb69bf3cf2a7d997",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
