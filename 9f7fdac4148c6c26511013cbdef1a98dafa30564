@@ -16,6 +16,24 @@
       "message": "Don\u0027t touch BoardConfigCommon.mk in this CL.",
       "revId": "9f7fdac4148c6c26511013cbdef1a98dafa30564",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d69e1384_82894f13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-26T16:52:21Z",
+      "side": 1,
+      "message": "Wasn\u0027t the point to move everything we can into LOCAL_PATH, including the stuff from BoardConfigCommon.mk?",
+      "parentUuid": "8b70cba4_4455f65e",
+      "revId": "9f7fdac4148c6c26511013cbdef1a98dafa30564",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
