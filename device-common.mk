@@ -311,7 +311,7 @@ PRODUCT_PACKAGES += \
 
 # Secure Element
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.2.vendor:64
+    android.hardware.secure_element@1.2-service-gto
 
 # Sensors
 PRODUCT_PACKAGES += \
