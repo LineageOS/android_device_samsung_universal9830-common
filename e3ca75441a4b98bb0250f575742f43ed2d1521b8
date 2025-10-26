@@ -16,6 +16,24 @@
       "message": "Move the soong_config_sets in a separate change of your own. It\u0027s unrelated.",
       "revId": "e3ca75441a4b98bb0250f575742f43ed2d1521b8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74c2acc6_67101698",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-26T16:31:11Z",
+      "side": 1,
+      "message": "Should I keep ones with LOCAL_PATH in them tho?",
+      "parentUuid": "7b138f0b_03749b9e",
+      "revId": "e3ca75441a4b98bb0250f575742f43ed2d1521b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
