@@ -16,6 +16,24 @@
       "message": "I do not think this change is worth it on an existing device tree",
       "revId": "f3e1fe10f50fec349475c9e1798fdbe3c450d946",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55fc2059_a662b2e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-27T09:55:56Z",
+      "side": 1,
+      "message": "And why do you think that?",
+      "parentUuid": "69622d1a_0cad40bc",
+      "revId": "f3e1fe10f50fec349475c9e1798fdbe3c450d946",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
