@@ -221,7 +221,9 @@ vendor/lib64/libsec_semRil.so
 vendor/lib64/sensors.flicker.so
 
 # Teegris
+vendor/bin/tzdaemon
 vendor/bin/tzts_daemon
+vendor/lib64/libteecl.so;DUMMY_SHARED_LIB
 vendor/lib64/libuuid.so;MODULE_SUFFIX=_vendor
 vendor/tee/00000000-0000-0000-0000-000000020081
 vendor/tee/00000000-0000-0000-0000-000048444350
