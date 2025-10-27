@@ -33,6 +33,24 @@
       "message": "Can you keep the flags in the same line where they were instead of adding them at the end ?\n\n I mean:\n\nBOARD_KERNEL_IMAGE_NAME :\u003d Image\nBOARD_BOOTIMG_HEADER_VERSION :\u003d 2\nBOARD_CUSTOM_BOOTIMG :\u003d true\nBOARD_MKBOOTIMG_ARGS :\u003d --base 0x10000000\nBOARD_MKBOOTIMG_ARGS +\u003d --dtb_offset 0x00000000\nBOARD_MKBOOTIMG_ARGS +\u003d --header_version 2\nBOARD_MKBOOTIMG_ARGS +\u003d --kernel_offset 0x00008000\nBOARD_MKBOOTIMG_ARGS +\u003d --pagesize 2048\nBOARD_MKBOOTIMG_ARGS +\u003d --ramdisk_offset 0x01000000\nBOARD_MKBOOTIMG_ARGS +\u003d --tags_offset 0x00000100\n#BOARD_KERNEL_CMDLINE :\u003d The bootloader ignores the cmdline from the boot.img\nBOARD_KERNEL_PAGESIZE :\u003d 2048\nBOARD_RAMDISK_USE_LZ4 :\u003d true\nTARGET_KERNEL_CLANG_VERSION :\u003d r416183b\nTARGET_KERNEL_CLANG_PATH :\u003d $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)\nKERNEL_TOOLCHAIN_PREFIX :\u003d aarch64-linux-gnu-\nTARGET_KERNEL_CONFIG :\u003d exynos9830_defconfig\nTARGET_KERNEL_SOURCE :\u003d kernel/samsung/universal9830\n\n\nalso more than a clean it is a rearrange",
       "revId": "cb75302b30be4203c7ad05bb5ff450b93f789da5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3505a22_f3fd5d8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2025-10-27T09:51:34Z",
+      "side": 1,
+      "message": "did that.",
+      "parentUuid": "38a09245_36ef0ac4",
+      "revId": "cb75302b30be4203c7ad05bb5ff450b93f789da5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
