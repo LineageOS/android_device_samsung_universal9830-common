@@ -51,6 +51,24 @@
       "parentUuid": "38a09245_36ef0ac4",
       "revId": "cb75302b30be4203c7ad05bb5ff450b93f789da5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4fbed50_0fc06070",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-27T09:53:04Z",
+      "side": 1,
+      "message": "Imo there is no point. It looks cleaner that way.",
+      "parentUuid": "38a09245_36ef0ac4",
+      "revId": "cb75302b30be4203c7ad05bb5ff450b93f789da5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
