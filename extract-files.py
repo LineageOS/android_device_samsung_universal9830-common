@@ -70,7 +70,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libOpenCL.so', 'libGLES_mali.so')
         .add_needed('libeden_ud_cpu.so'),
     'vendor/lib64/libsec-ril.so': blob_fixup()
-        .sig_replace('80 0E 40 F9 E1 03 16 AA 82 0C 80 52 E3 03 15 AA', '80 0E 40 F9 E1 03 16 AA 82 0C 80 52 08 00 80 D2'),
+        .replace_needed('libprotobuf-cpp-full-21.7.so', 'libprotobuf-cpp-full-21.12.so')
+        .sig_replace('80 0E 40 F9 E1 03 16 AA 82 0C 80 52 E3 03 15 AA', '80 0E 40 F9 E1 03 16 AA 82 0C 80 52 03 00 80 D2'),
     'vendor/lib64/libsensorlistener.so': blob_fixup()
         .add_needed('libsensorndkbridge_shim.so'),
     'vendor/lib64/libskeymaster4device.so': blob_fixup()
