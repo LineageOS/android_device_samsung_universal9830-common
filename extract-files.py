@@ -48,8 +48,6 @@ lib_fixups: lib_fixups_user_type = {
 
 
 blob_fixups: blob_fixups_user_type = {
-    ('vendor/bin/vaultkeeperd', 'vendor/lib64/libvkservice.so'): blob_fixup()
-        .binary_regex_replace(b'ro.factory.factory_binary', b'ro.vendor.factory_binary\x00'),
     'vendor/lib64/libbayergdccore.so': blob_fixup()
         .replace_needed('libOpenCL.so', 'libGLES_mali.so'),
     'vendor/lib64/libkeymaster_helper.so': blob_fixup()

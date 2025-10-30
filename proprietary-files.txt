@@ -177,17 +177,14 @@ vendor/firmware/usbin.bin
 vendor/firmware/usbout.bin
 vendor/firmware/yuv2bayer.bin
 
-# Proca
-vendor/bin/vendor.samsung.hardware.security.proca@2.0-service
-
-# RIL
-vendor/bin/cass
+# RIL (Auxiliary)
 vendor/etc/plmn_delta.bin
 vendor/etc/plmn_delta_attaio.bin
 vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
 vendor/lib64/libengmode_client.so
 vendor/lib64/libfloatingfeature.so
+vendor/lib64/libvkmanager_vendor.so
 
 # RIL - from a55x - A556EXXSABYI2
 vendor/bin/hw/rild|e00d12047f9a3ce9eb75f38c6f43fa82564827f3
@@ -238,12 +235,6 @@ vendor/tee/driver/00000000-0000-0000-0000-564c544b4456
 vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_
 vendor/tee/ffffffff-0000-0000-0000-000000000030
 vendor/tee/tui/resolution_common/ID00000100
-
-# VaultKeeper
-vendor/bin/vaultkeeperd
-vendor/lib64/libstork_shared.so
-vendor/lib64/libvkmanager_vendor.so
-vendor/lib64/libvkservice.so
 
 # Widevine
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
