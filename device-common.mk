@@ -320,7 +320,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.network-V1-ndk.vendor:64 \
     android.hardware.radio.sim-V1-ndk.vendor:64 \
     android.hardware.radio.voice-V1-ndk.vendor:64 \
-    cass.rc \
     init.baseband.rc \
     init.vendor.rilcommon.rc \
     libdsms_vendor:64 \
@@ -396,8 +395,7 @@ PRODUCT_PACKAGES += \
 
 # TUI
 PRODUCT_PACKAGES += \
-    teegris_v4.rc \
-    pa_daemon_teegris.rc
+    teegris_v4.rc
 
 # Update
 AB_OTA_UPDATER := false
@@ -410,10 +408,6 @@ PRODUCT_PACKAGES += \
     init.exynos990.usb.rc
 
 $(call soong_config_set,samsungUsbGadgetVars,gadget_name,10e00000.dwc3)
-
-# Vaultkeeper
-PRODUCT_PACKAGES += \
-    vaultkeeper_common.rc
 
 # Vibrator
 PRODUCT_PACKAGES += \

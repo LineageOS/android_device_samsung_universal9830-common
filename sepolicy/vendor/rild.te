@@ -1,13 +1,11 @@
 # rild.te
 
 allow rild {
-    cass
     hal_camera_default
     hal_secure_element_default
 }:dir search;
 
 allow rild {
-    cass
     hal_camera_default
     hal_secure_element_default
 }:file r_file_perms;
