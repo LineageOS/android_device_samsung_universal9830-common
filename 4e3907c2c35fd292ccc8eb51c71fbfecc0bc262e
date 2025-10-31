@@ -51,6 +51,24 @@
       "message": "They should work when flashing them over LineageOS",
       "revId": "4e3907c2c35fd292ccc8eb51c71fbfecc0bc262e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "932c7130_04e865c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-31T23:01:10Z",
+      "side": 1,
+      "message": "Imo it\u0027s just unnecessary and I\u0027m pretty sure that those 3 lines of code were never used but you are the maintainer so I\u0027m not gonna argue much.",
+      "parentUuid": "8da93c82_ffdd5764",
+      "revId": "4e3907c2c35fd292ccc8eb51c71fbfecc0bc262e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
