@@ -8,12 +8,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.gnss</name>
-        <version>2.1</version>
-        <interface>
-            <name>ISehGnss</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
 </compatibility-matrix>
