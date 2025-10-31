@@ -86,8 +86,8 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">17</integer>
-    <item name="config_screenBrightnessDimFloat" format="float" type="dimen">0.06666667</item>
+    <integer name="config_screenBrightnessDim">41</integer>
+    <item name="config_screenBrightnessDimFloat" format="float" type="dimen">0.16078432</item>
 
     <!-- Vibrator pattern to be used as the default for notifications
          that specify DEFAULT_VIBRATE. -->
