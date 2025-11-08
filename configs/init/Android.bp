@@ -42,6 +42,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.tsp.rc",
+    src: "etc/init/init.tsp.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.recovery.exynos990.rc",
     src: "etc/init/init.recovery.exynos990.rc",
     sub_dir: "init",
