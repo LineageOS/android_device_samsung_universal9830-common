@@ -384,8 +384,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.samsung_slsi.hardware.tetheroffload@1.1-service
 
-# Touch features
+# TSP
 PRODUCT_PACKAGES += \
+    init.tsp.rc \
     vendor.lineage.touch-service.samsung
 
 # TUI
