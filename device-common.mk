@@ -390,6 +390,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.samsung
 
+# TSP
+PRODUCT_PACKAGES += \
+    init.tsp.rc
+
 # TUI
 PRODUCT_PACKAGES += \
     teegris_v4.rc
