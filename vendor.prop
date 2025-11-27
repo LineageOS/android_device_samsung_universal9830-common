@@ -52,7 +52,7 @@ ro.frp.pst=/dev/block/persistent
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
 # Graphics
-debug.renderengine.backend=skiavkthreaded
+debug.renderengine.backend=threaded
 debug.sf.auto_latch_unsignaled=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_transaction_tracing=false
