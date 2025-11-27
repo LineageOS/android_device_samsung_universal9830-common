@@ -16,6 +16,24 @@
       "message": "Add a reason in the commit message.",
       "revId": "711ca3bf5c5fa91105d238ccd68a32488fa394bc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae4b217f_1d92a372",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-27T21:39:33Z",
+      "side": 1,
+      "message": "Or just squash these three reverts into one single \"Remove AdvancedDisplay\" change to look nicer.",
+      "parentUuid": "e98efcbe_12deb19c",
+      "revId": "711ca3bf5c5fa91105d238ccd68a32488fa394bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
