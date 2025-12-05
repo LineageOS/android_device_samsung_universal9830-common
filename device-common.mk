@@ -101,6 +101,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint-service.samsung
     init.udfps.rc
 
 # Gatekeeper
