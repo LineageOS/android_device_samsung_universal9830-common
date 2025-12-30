@@ -14,8 +14,13 @@
 # limitations under the License.
 #
 
+PLATFORM_PATH := device/samsung/universal9830-common/hubble
+
 # Inherit from common
 $(call inherit-product, device/samsung/universal9830-common/device-common.mk)
+
+# HIDL Manifest
+DEVICE_MANIFEST_FILE += $(PLATFORM_PATH)/manifest.xml
 
 # NFC
 PRODUCT_COPY_FILES += \
