@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eeb92080_6350a7d1",
+        "filename": "device-hubble.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-12-30T14:48:05Z",
+      "side": 1,
+      "message": "You should use ```$(LOCAL_PATH)/humble```. There is no need to define ```PLATFORM_PATH```",
+      "range": {
+        "startLine": 23,
+        "startChar": 24,
+        "endLine": 23,
+        "endChar": 40
+      },
+      "revId": "9a8c9683af3347d288659f512a3194f08a673a72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
