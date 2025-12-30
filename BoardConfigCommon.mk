@@ -76,6 +76,10 @@ TARGET_USES_VULKAN := true
 # HIDL Manifest
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
+ifneq ($(TARGET_DEVICE),r8s)
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/hubble/manifest.xml
+endif
+
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_BOOTIMG_HEADER_VERSION := 2
