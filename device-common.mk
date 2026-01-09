@@ -72,6 +72,9 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge \
     libutilscallstack.vendor
 
+PRODUCT_PACKAGES += \
+    libvpl
+
 $(call soong_config_set,samsungCameraVars,usage_64bit,true)
 
 # Cgroup and task_profiles
