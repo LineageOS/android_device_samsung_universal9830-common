@@ -903,7 +903,7 @@ on boot
 
     # ESE
     chmod 0660 /dev/p3
-    chown system system /dev/p3
+    chown secure_element secure_element /dev/p3
 
     # Permissions for Displayport
     # DP AUX switch control for factory test
