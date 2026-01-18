@@ -50,7 +50,10 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libbayergdccore.so': blob_fixup()
         .replace_needed('libOpenCL.so', 'libGLES_mali.so'),
-    'vendor/lib64/libkeymaster_helper.so': blob_fixup()
+    (
+        'vendor/lib64/libkeymaster_helper.so',
+        'vendor/lib64/libskeymaster4device.so',
+    ): blob_fixup()
         .replace_needed('libcrypto.so', 'libcrypto-v33.so'),
     'vendor/lib64/libnpuc_backend.so': blob_fixup()
         .add_needed('liblog.so')
@@ -72,9 +75,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libprotobuf-cpp-full-21.7.so', 'libprotobuf-cpp-full-21.12.so'),
     'vendor/lib64/libsensorlistener.so': blob_fixup()
         .add_needed('libsensorndkbridge_shim.so'),
-    'vendor/lib64/libskeymaster4device.so': blob_fixup()
-        .replace_needed('libcrypto.so', 'libcrypto-v33.so')
-        .add_needed('libshim_crypto.so'),
     'vendor/lib/libwvhidl.so': blob_fixup()
         .replace_needed('libprotobuf-cpp-lite-3.9.1.so', 'libprotobuf-cpp-full-3.9.1.so')
         .add_needed('libcrypto_shim.so'),
