@@ -46,7 +46,6 @@ prebuilt_etc {
     src: "etc/init/init.recovery.exynos990.rc",
     sub_dir: "init",
     recovery: true,
-    vendor: true,
 }
 
 prebuilt_etc {
