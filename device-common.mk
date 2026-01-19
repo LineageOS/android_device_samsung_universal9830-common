@@ -223,7 +223,6 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureOverlayCommon \
-    CarrierConfigOverlayCommon \
     FrameworkResOverlayCommon \
     LineageDialerOverlayCommon \
     LineageSDKOverlayCommon \
