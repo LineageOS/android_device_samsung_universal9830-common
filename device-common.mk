@@ -221,7 +221,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    ApertureOverlayCommon \
+    CarrierConfigOverlayCommon \
+    FrameworkResOverlayCommon \
+    LineageDialerOverlayCommon \
+    LineageSDKOverlayCommon \
+    SettingsOverlayCommon \
+    SystemUIOverlayCommon
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Permissions
