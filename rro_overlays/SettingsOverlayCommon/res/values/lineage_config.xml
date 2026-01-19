@@ -4,6 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Enable auxiliary cameras selector. -->
-    <bool name="config_enableAuxCameras">true</bool>
+    <!-- Whether to show min refresh rate in display settings -->
+    <bool name="config_show_min_refresh_rate_switch">true</bool>
 </resources>
