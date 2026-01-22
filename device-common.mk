@@ -202,13 +202,27 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc-service.sec \
     com.android.nfc_extras \
     Tag
+
+ifeq ($(filter c1s c2s, $(TARGET_DEVICE)),)
+PRODUCT_PACKAGES += \
+    android.hardware.nfc-service.sec \
+    android.hardware.secure_element-service.thales
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml
+else
+PRODUCT_PACKAGES += \
+    android.hardware.nfc-service.nxp \
+    android.hardware.secure_element-service.nxp
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    $(LOCAL_PATH)/configs/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf \
+    $(LOCAL_PATH)/configs/nfc/libese-nxp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.xml
+endif
 
 # Overlays
 PRODUCT_PACKAGES += \
@@ -324,10 +338,6 @@ $(call soong_config_set,cbd,protocol,sipc)
 # SamsungDoze
 PRODUCT_PACKAGES += \
     SamsungDoze
-
-# Secure Element
-PRODUCT_PACKAGES += \
-    android.hardware.secure_element-service.thales
 
 # Sensors
 PRODUCT_PACKAGES += \
