@@ -46,7 +46,7 @@ ro.vendor.eden.devices=CPU1_GPU1_NPU2
 ro.vendor.eden.npu.version.path=/sys/devices/platform/npu_exynos/version
 
 # Factory Reset Protection
-ro.frp.pst=/dev/block/persistent
+ro.frp.pst=/dev/block/by-name/persistent
 
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
