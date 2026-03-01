@@ -231,7 +231,7 @@ vendor/tee/ffffffff-0000-0000-0000-000000000030
 vendor/tee/tui/resolution_common/ID00000100
 
 # Widevine
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
-vendor/lib/libwvhidl.so
+vendor/bin/hw/android.hardware.drm@1.4-service.widevine|877301893f7700f9875fb3a89876607fb9c359c3
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|992f63e9700da29099e0590858a6becaaadb2976
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
+vendor/lib64/libwvhidl.so|
