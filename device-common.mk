@@ -47,6 +47,9 @@ PRODUCT_COPY_FILES += \
 TARGET_EXCLUDES_AUDIOFX := true
 
 $(call soong_config_set,exynos_audio,PROXY_LIBRARY,//$(LOCAL_PATH):libaudioproxy)
+$(call soong_config_set_bool,exynos_audio,SUPPORT_DIRECT_MULTI_CHANNEL_STREAM,true)
+$(call soong_config_set_bool,exynos_audio,SUPPORT_STHAL_INTERFACE,true)
+$(call soong_config_set_bool,exynos_audio,SUPPORT_USB_OFFLOAD,true)
 $(call soong_config_set,exynos_audio,PREDEFINED_LOW_CAPTURE_DURATION,20)
 $(call soong_config_set,exynos_audio,PREDEFINED_USB_PLAYBACK_DURATION,5)
 $(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_dynamic_nrec,true)
