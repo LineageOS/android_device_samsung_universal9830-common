@@ -49,7 +49,6 @@ TARGET_EXCLUDES_AUDIOFX := true
 $(call soong_config_set,exynos_audio,PROXY_LIBRARY,//$(LOCAL_PATH):libaudioproxy)
 $(call soong_config_set,exynos_audio,PREDEFINED_LOW_CAPTURE_DURATION,20)
 $(call soong_config_set,exynos_audio,PREDEFINED_USB_PLAYBACK_DURATION,5)
-$(call soong_config_set_bool,exynos_audio,PREDEFINED_USE_MMAP_HW_VOLUME_CONTROL,true)
 $(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_dynamic_nrec,true)
 $(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_param_update,false)
 $(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_resampler,true)
