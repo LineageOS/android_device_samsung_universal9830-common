@@ -294,7 +294,7 @@ struct pcm_config pcm_config_deep_playback_suhqa = {
 #define VRX_PLAYBACK_PERIOD_COUNT       4
 #define VRX_PLAYBACK_FORMAT             DEFAULT_VOICE_FORMAT
 #define VRX_PLAYBACK_START              VRX_PLAYBACK_PERIOD_SIZE
-#define VRX_PLAYBACK_STOP               UINT_MAX
+#define VRX_PLAYBACK_STOP               ULONG_MAX
 
 struct pcm_config pcm_config_voicerx_playback = {
     .channels        = VRX_PLAYBACK_CHANNELS,
