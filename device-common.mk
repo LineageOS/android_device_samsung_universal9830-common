@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
 
 TARGET_EXCLUDES_AUDIOFX := true
 
-$(call soong_config_set_bool,exynos_audio,predefined_use_mmap_hw_volume_control,true)
 $(call soong_config_set_bool,exynos_audio,support_direct_multi_channel_stream,true)
 $(call soong_config_set_bool,exynos_audio,use_dual_spk_hack,true)
 $(call soong_config_set_bool,exynos_audio,use_sec_audio_dynamic_nrec,true)
