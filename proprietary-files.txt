@@ -2,17 +2,14 @@
 # Vendor security patch level 2025-07-01
 
 # Audio
-vendor/lib/libSamsungPostProcessConvertor.so
-vendor/lib/lib_SoundAlive_SRC384_ver320.so
-vendor/lib/lib_soundaliveresampler.so
 vendor/lib64/libSamsungPostProcessConvertor.so
 vendor/lib64/lib_SoundAlive_SRC384_ver320.so
 vendor/lib64/lib_soundaliveresampler.so
 
 # Audio (Dolby Atmos)
-vendor/lib/libprofileparamstorage.so
-vendor/lib/libsecaudiocoreutils.so
-vendor/lib/libspatializerparamstorage.so
+vendor/lib64/libprofileparamstorage.so
+vendor/lib64/libsecaudiocoreutils.so
+vendor/lib64/libspatializerparamstorage.so
 
 # Audio (Firmware)
 vendor/firmware/APSV_AUDIO_SLSI.bin
@@ -191,8 +188,6 @@ vendor/bin/hw/rild|e00d12047f9a3ce9eb75f38c6f43fa82564827f3
 vendor/etc/vintf/manifest/vendor.samsung.hardware.radio.exclude.slsi.xml|c3f8ea3f6228f2d572081b0c0ae29a251de4350b
 vendor/etc/vintf/manifest/vendor.samsung.hardware.radio_manifest_2_34.xml|8a78a095378827de038b13e0470f6b43d60cf71a
 vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_34.xml|ebbe359a9b2d78cb88debe79d9183c039afb7c01
-vendor/lib/libsecril-client.so|fd7cb317ad17fd6c5b94c69bc4eaef80631215f1
-vendor/lib/libsemnativecarrierfeature.so|56ed7bd5f596502cf9614b5d9ebf255ac4e1e73c
 vendor/lib64/libVendorSemDataProps.so|68dae919cb8e4a36246fe6c3548fe7faf398bfcb
 vendor/lib64/libVendorSemTelephonyProps.so|684afb42daeec36fbb37987b06afb236df394a22
 vendor/lib64/libril_sem.so|489bdbfd9701e3b1979b8cc05133c733cc7f586b
@@ -207,7 +202,6 @@ vendor/lib64/vendor.samsung.hardware.radio.messaging-V1-ndk.so|253e1ee51bba7e8a6
 vendor/lib64/vendor.samsung.hardware.radio.sim-V1-ndk.so|a2f0be5b802aa317d05f388b44a8b1917b02cfd7
 
 # Secnative
-vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 # Secure Element
