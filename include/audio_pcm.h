@@ -152,7 +152,7 @@
 #define PRIMARY_PLAYBACK_PERIOD_COUNT   4
 #define PRIMARY_PLAYBACK_FORMAT         DEFAULT_MEDIA_FORMAT
 #define PRIMARY_PLAYBACK_START          PRIMARY_PLAYBACK_PERIOD_SIZE
-#define PRIMARY_PLAYBACK_STOP           (PRIMARY_PLAYBACK_PERIOD_SIZE * PRIMARY_PLAYBACK_PERIOD_COUNT)
+#define PRIMARY_PLAYBACK_STOP           ULONG_MAX
 
 struct pcm_config pcm_config_primary_playback = {
     .channels        = PRIMARY_PLAYBACK_CHANNELS,
@@ -196,7 +196,7 @@ struct pcm_config pcm_config_fast_playback = {
 #define LOW_PLAYBACK_PERIOD_COUNT       4
 #define LOW_PLAYBACK_FORMAT             DEFAULT_MEDIA_FORMAT
 #define LOW_PLAYBACK_START              LOW_PLAYBACK_PERIOD_SIZE
-#define LOW_PLAYBACK_STOP               UINT_MAX
+#define LOW_PLAYBACK_STOP               ULONG_MAX
 
 struct pcm_config pcm_config_low_playback = {
     .channels        = LOW_PLAYBACK_CHANNELS,
@@ -218,7 +218,7 @@ struct pcm_config pcm_config_low_playback = {
 #define MMAP_PLAYBACK_PERIOD_COUNT       MMAP_PERIOD_COUNT_DEFAULT
 #define MMAP_PLAYBACK_FORMAT             DEFAULT_MEDIA_FORMAT
 #define MMAP_PLAYBACK_START              (MMAP_PLAYBACK_PERIOD_SIZE * 8)
-#define MMAP_PLAYBACK_STOP               UINT_MAX
+#define MMAP_PLAYBACK_STOP               ULONG_MAX
 
 struct pcm_config pcm_config_mmap_playback = {
     .channels        = MMAP_PLAYBACK_CHANNELS,
@@ -294,7 +294,7 @@ struct pcm_config pcm_config_deep_playback_suhqa = {
 #define VRX_PLAYBACK_PERIOD_COUNT       4
 #define VRX_PLAYBACK_FORMAT             DEFAULT_VOICE_FORMAT
 #define VRX_PLAYBACK_START              VRX_PLAYBACK_PERIOD_SIZE
-#define VRX_PLAYBACK_STOP               UINT_MAX
+#define VRX_PLAYBACK_STOP               ULONG_MAX
 
 struct pcm_config pcm_config_voicerx_playback = {
     .channels        = VRX_PLAYBACK_CHANNELS,
@@ -338,7 +338,7 @@ struct compr_config compr_config_offload_playback = {
 #define FMRADIO_PLAYBACK_PERIOD_COUNT   4
 #define FMRADIO_PLAYBACK_FORMAT         DEFAULT_MEDIA_FORMAT
 #define FMRADIO_PLAYBACK_START          FMRADIO_PLAYBACK_PERIOD_SIZE
-#define FMRADIO_PLAYBACK_STOP           UINT_MAX
+#define FMRADIO_PLAYBACK_STOP           ULONG_MAX
 
 struct pcm_config pcm_config_fmradio_playback = {
     .channels        = FMRADIO_PLAYBACK_CHANNELS,
@@ -380,7 +380,7 @@ struct pcm_config pcm_config_direct_playback = {
 #define USBIN_LOOPBACK_PERIOD_COUNT     4
 #define USBIN_LOOPBACK_FORMAT           DEFAULT_MEDIA_FORMAT
 #define USBIN_LOOPBACK_START            USBIN_LOOPBACK_PERIOD_SIZE
-#define USBIN_LOOPBACK_STOP             UINT_MAX
+#define USBIN_LOOPBACK_STOP             ULONG_MAX
 
 struct pcm_config pcm_config_usb_in_loopback = {
     .channels        = USBIN_LOOPBACK_CHANNELS,
@@ -402,7 +402,7 @@ struct pcm_config pcm_config_usb_in_loopback = {
 #define MUTE_PLAYBACK_PERIOD_COUNT      4
 #define MUTE_PLAYBACK_FORMAT            DEFAULT_MEDIA_FORMAT
 #define MUTE_PLAYBACK_START             MUTE_PLAYBACK_PERIOD_SIZE
-#define MUTE_PLAYBACK_STOP              UINT_MAX
+#define MUTE_PLAYBACK_STOP              ULONG_MAX
 
 struct pcm_config pcm_config_mute_playback = {
     .channels        = MUTE_PLAYBACK_CHANNELS,
@@ -425,7 +425,7 @@ struct pcm_config pcm_config_mute_playback = {
 #define AUX_PLAYBACK_PERIOD_COUNT       2
 #define AUX_PLAYBACK_FORMAT             DEFAULT_MEDIA_FORMAT
 #define AUX_PLAYBACK_START              AUX_PLAYBACK_PERIOD_SIZE
-#define AUX_PLAYBACK_STOP               UINT_MAX
+#define AUX_PLAYBACK_STOP               ULONG_MAX
 
 struct pcm_config pcm_config_aux_playback = {
     .channels        = AUX_PLAYBACK_CHANNELS,
@@ -449,7 +449,7 @@ struct pcm_config pcm_config_aux_playback = {
 #define PRIMARY_CAPTURE_PERIOD_COUNT    4
 #define PRIMARY_CAPTURE_FORMAT          DEFAULT_MEDIA_FORMAT
 #define PRIMARY_CAPTURE_START           PRIMARY_CAPTURE_PERIOD_SIZE
-#define PRIMARY_CAPTURE_STOP            UINT_MAX
+#define PRIMARY_CAPTURE_STOP            ULONG_MAX
 
 struct pcm_config pcm_config_primary_capture = {
     .channels        = PRIMARY_CAPTURE_CHANNELS,
@@ -469,7 +469,7 @@ struct pcm_config pcm_config_primary_capture = {
 #define PRIMARY_QUAD_CAPTURE_PERIOD_COUNT   4
 #define PRIMARY_QUAD_CAPTURE_FORMAT         DEFAULT_MEDIA_FORMAT
 #define PRIMARY_QUAD_CAPTURE_START          PRIMARY_QUAD_CAPTURE_PERIOD_SIZE
-#define PRIMARY_QUAD_CAPTURE_STOP           UINT_MAX
+#define PRIMARY_QUAD_CAPTURE_STOP           ULONG_MAX
 
 struct pcm_config pcm_config_primary_quad_mic_capture = {
     .channels        = PRIMARY_QUAD_CAPTURE_CHANNELS,
@@ -492,7 +492,7 @@ struct pcm_config pcm_config_primary_quad_mic_capture = {
 #define LOW_CAPTURE_PERIOD_COUNT        FAST_PLAYBACK_PERIOD_COUNT
 #define LOW_CAPTURE_FORMAT              DEFAULT_MEDIA_FORMAT
 #define LOW_CAPTURE_START               LOW_CAPTURE_PERIOD_SIZE
-#define LOW_CAPTURE_STOP                UINT_MAX
+#define LOW_CAPTURE_STOP                ULONG_MAX
 
 struct pcm_config pcm_config_low_capture = {
     .channels        = LOW_CAPTURE_CHANNELS,
@@ -514,7 +514,7 @@ struct pcm_config pcm_config_low_capture = {
 #define MMAP_CAPTURE_PERIOD_COUNT       MMAP_PERIOD_COUNT_DEFAULT
 #define MMAP_CAPTURE_FORMAT             DEFAULT_MEDIA_FORMAT
 #define MMAP_CAPTURE_START              MMAP_CAPTURE_PERIOD_SIZE
-#define MMAP_CAPTURE_STOP               UINT_MAX
+#define MMAP_CAPTURE_STOP               ULONG_MAX
 
 struct pcm_config pcm_config_mmap_capture = {
     .channels        = MMAP_CAPTURE_CHANNELS,
@@ -536,7 +536,7 @@ struct pcm_config pcm_config_mmap_capture = {
 #define VTX_CAPTURE_PERIOD_COUNT        4
 #define VTX_CAPTURE_FORMAT              DEFAULT_VOICE_FORMAT
 #define VTX_CAPTURE_START               VTX_CAPTURE_PERIOD_SIZE
-#define VTX_CAPTURE_STOP                UINT_MAX
+#define VTX_CAPTURE_STOP                ULONG_MAX
 
 struct pcm_config pcm_config_voicetx_capture = {
     .channels        = VTX_CAPTURE_CHANNELS,
@@ -556,7 +556,7 @@ struct pcm_config pcm_config_voicetx_capture = {
 #define VTX_QUAD_MIC_CAPTURE_PERIOD_COUNT       4
 #define VTX_QUAD_MIC_CAPTURE_FORMAT             DEFAULT_VOICE_FORMAT
 #define VTX_QUAD_MIC_CAPTURE_START              VTX_QUAD_MIC_CAPTURE_PERIOD_SIZE
-#define VTX_QUAD_MIC_CAPTURE_STOP               UINT_MAX
+#define VTX_QUAD_MIC_CAPTURE_STOP               ULONG_MAX
 
 struct pcm_config pcm_config_quad_mic_voicetx_capture = {
     .channels        = VTX_QUAD_MIC_CAPTURE_CHANNELS,
@@ -579,7 +579,7 @@ struct pcm_config pcm_config_quad_mic_voicetx_capture = {
 #define VC_FMRADIO_CAPTURE_PERIOD_COUNT    4
 #define VC_FMRADIO_CAPTURE_FORMAT          DEFAULT_MEDIA_FORMAT
 #define VC_FMRADIO_CAPTURE_START           VC_FMRADIO_CAPTURE_PERIOD_SIZE
-#define VC_FMRADIO_CAPTURE_STOP            UINT_MAX
+#define VC_FMRADIO_CAPTURE_STOP            ULONG_MAX
 
 struct pcm_config pcm_config_vc_fmradio_capture = {
     .channels        = VC_FMRADIO_CAPTURE_CHANNELS,
@@ -599,7 +599,7 @@ struct pcm_config pcm_config_vc_fmradio_capture = {
 #define QUAD_MIC_CAPTURE_PERIOD_COUNT    4
 #define QUAD_MIC_CAPTURE_FORMAT          DEFAULT_MEDIA_FORMAT
 #define QUAD_MIC_CAPTURE_START           QUAD_MIC_CAPTURE_PERIOD_SIZE
-#define QUAD_MIC_CAPTURE_STOP            UINT_MAX
+#define QUAD_MIC_CAPTURE_STOP            ULONG_MAX
 
 struct pcm_config pcm_config_vc_quad_mic_capture = {
     .channels        = QUAD_MIC_CAPTURE_CHANNELS,
@@ -625,7 +625,7 @@ struct pcm_config pcm_config_vc_quad_mic_capture = {
 #define CALL_RECORD_PERIOD_COUNT        DEFAULT_VOICE_REC_PERIODCOUNT
 #define CALL_RECORD_FORMAT              DEFAULT_VOICE_REC_FORMAT
 #define CALL_RECORD_START               CALL_RECORD_PERIOD_SIZE
-#define CALL_RECORD_STOP                UINT_MAX
+#define CALL_RECORD_STOP                ULONG_MAX
 
 struct pcm_config pcm_config_call_record = {
     .channels        = CALL_RECORD_CHANNELS,
@@ -647,7 +647,7 @@ struct pcm_config pcm_config_call_record = {
 #define FM_RECORD_PERIOD_COUNT          DEFAULT_FM_REC_PERIODCOUNT
 #define FM_RECORD_FORMAT                DEFAULT_FM_REC_FORMAT
 #define FM_RECORD_START                 FM_RECORD_PERIOD_SIZE
-#define FM_RECORD_STOP                  FM_RECORD_PERIOD_SIZE * FM_RECORD_PERIOD_COUNT
+#define FM_RECORD_STOP                  ULONG_MAX
 
 struct pcm_config pcm_config_fm_record = {
     .channels        = FM_RECORD_CHANNELS,
