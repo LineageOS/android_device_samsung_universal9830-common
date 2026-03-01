@@ -23,8 +23,8 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.effect@7.0-impl:32 \
-    android.hardware.audio@7.1-impl:32 \
+    android.hardware.audio.effect@7.0-impl \
+    android.hardware.audio@7.1-impl \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
     audio.bluetooth.default \
@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
 
 TARGET_EXCLUDES_AUDIOFX := true
 
+$(call soong_config_set,android_hardware_audio,run_64bit,true)
 $(call soong_config_set_bool,exynos_audio,support_direct_multi_channel_stream,true)
 $(call soong_config_set_bool,exynos_audio,force_dual_speaker,true)
 $(call soong_config_set_bool,exynos_audio,use_sec_audio_dynamic_nrec,true)
@@ -369,7 +370,7 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH) \
 
 # SoundTrigger
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.3-impl:32 \
+    android.hardware.soundtrigger@2.3-impl \
     sound_trigger.primary.universal990
 
 PRODUCT_COPY_FILES += \
