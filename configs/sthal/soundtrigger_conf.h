@@ -41,7 +41,7 @@
 /* Google model binary size is used, as this is greater then SVoice model size */
 #define VTSDRV_MISC_MODEL_BIN_MAXSZ             0x10800
 
-#define AUDIO_PRIMARY_HAL_LIBRARY_PATH "/vendor/lib/libaudioproxy.so"
+#define AUDIO_PRIMARY_HAL_LIBRARY_PATH "/vendor/lib64/libaudioproxy.so"
 
 // VTS Capture(Input) PCM Configuration
 #define DEFAULT_VTS_CHANNELS          1       // Mono
