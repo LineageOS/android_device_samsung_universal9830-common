@@ -16,6 +16,23 @@
       "message": "libcrypto_shim is now unused.",
       "revId": "fe355557f3f569e42279af28276e3fc6f2be2089",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac434a49_bd903419",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-03-02T16:28:39Z",
+      "side": 1,
+      "message": "Source of the blobs should be mention here (https://github.com/LineageOS/charter/blob/main/device-support-requirements.md#proprietary-files-extraction)",
+      "revId": "fe355557f3f569e42279af28276e3fc6f2be2089",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
