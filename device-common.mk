@@ -46,18 +46,19 @@ PRODUCT_COPY_FILES += \
 
 TARGET_EXCLUDES_AUDIOFX := true
 
-$(call soong_config_set,exynos_audio,PROXY_LIBRARY,//$(LOCAL_PATH):libaudioproxy)
-$(call soong_config_set,exynos_audio,PREDEFINED_LOW_CAPTURE_DURATION,20)
-$(call soong_config_set,exynos_audio,PREDEFINED_USB_PLAYBACK_DURATION,5)
-$(call soong_config_set_bool,exynos_audio,PREDEFINED_USE_MMAP_HW_VOLUME_CONTROL,true)
-$(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_dynamic_nrec,true)
-$(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_param_update,false)
-$(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_resampler,true)
-$(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_samsungrecord,true)
-$(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_sound_trigger_enabled,true)
-$(call soong_config_set_bool,universal9830AudioVars,use_sec_audio_support_listenback_dspeffect,true)
-$(call soong_config_set_bool,universal9830AudioVars,use_soundtrigger_hal,true)
-$(call soong_config_set_bool,universal9830AudioVars,use_usb_offload,true)
+$(call soong_config_set_bool,exynos_audio,predefined_use_mmap_hw_volume_control,true)
+$(call soong_config_set_bool,exynos_audio,support_direct_multi_channel_stream,true)
+$(call soong_config_set_bool,exynos_audio,use_dual_spk_hack,true)
+$(call soong_config_set_bool,exynos_audio,use_sec_audio_dynamic_nrec,true)
+$(call soong_config_set_bool,exynos_audio,use_sec_audio_param_update,false)
+$(call soong_config_set_bool,exynos_audio,use_sec_audio_samsungrecord,true)
+$(call soong_config_set_bool,exynos_audio,use_sec_audio_support_listenback_dspeffect,true)
+$(call soong_config_set_bool,exynos_audio,use_soundtrigger_hal,true)
+$(call soong_config_set_bool,exynos_audio,use_usb_offload,true)
+$(call soong_config_set,exynos_audio,predefined_low_capture_duration,20)
+$(call soong_config_set,exynos_audio,predefined_usb_playback_duration,5)
+$(call soong_config_set,exynos_audio,proxy_header,//$(LOCAL_PATH):audio_proxy_headers)
+$(call soong_config_set,exynos_audio,sec_resampler_library,//vendor/samsung/universal9830-common:libSamsungPostProcessConvertor)
 
 # Boot animation
 TARGET_BOOTANIMATION_PRELOAD := true
@@ -358,6 +359,7 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH) \
     hardware/samsung \
     hardware/samsung_slsi-linaro/exynos/cpboot_v3 \
     hardware/samsung_slsi-linaro/exynos/libaudio/audiohal_comv1 \
+    hardware/samsung_slsi-linaro/exynos/libaudio/audiohal_comv1/proxy \
     hardware/samsung_slsi-linaro/exynos/libaudio/sthal \
     hardware/samsung_slsi-linaro/exynos/gralloc/gralloc3
 
