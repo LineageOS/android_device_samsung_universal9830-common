@@ -9,3 +9,8 @@ soong_namespace {
         "vendor/samsung/universal9830-common"
 	],
 }
+
+cc_library_headers {
+    name: "audio_proxy_headers",
+    export_include_dirs: ["include"],
+}
