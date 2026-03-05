@@ -51,7 +51,7 @@ $(call soong_config_set_bool,exynos_audio,support_direct_multi_channel_stream,tr
 $(call soong_config_set_bool,exynos_audio,use_dual_spk_hack,true)
 $(call soong_config_set_bool,exynos_audio,use_sec_audio_dynamic_nrec,true)
 $(call soong_config_set_bool,exynos_audio,use_sec_audio_param_update,false)
-$(call soong_config_set_bool,exynos_audio,use_sec_audio_resampler,true)
+#$(call soong_config_set_bool,exynos_audio,use_sec_audio_resampler,true)
 $(call soong_config_set_bool,exynos_audio,use_sec_audio_samsungrecord,true)
 $(call soong_config_set_bool,exynos_audio,use_sec_audio_support_listenback_dspeffect,true)
 $(call soong_config_set_bool,exynos_audio,use_soundtrigger_hal,true)
