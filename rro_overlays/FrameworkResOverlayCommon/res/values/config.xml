@@ -224,4 +224,7 @@
          rates are available from hardware composer. Only has an effect if the value is
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">60</integer>
+
+    <!-- Whether desktop mode is supported on the current device  -->
+    <bool name="config_isDesktopModeSupported">true</bool>
 </resources>
