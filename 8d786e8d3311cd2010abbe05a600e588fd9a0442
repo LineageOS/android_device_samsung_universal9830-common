@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6f16ca2_6130016c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34693
+      },
+      "writtenOn": "2026-03-21T13:22:05Z",
+      "side": 1,
+      "message": "Shouldn\u0027t you wait for QPR3? Rn, it\u0027s not stable on my end and somewhat frequently crashes a bit.",
+      "revId": "8d786e8d3311cd2010abbe05a600e588fd9a0442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
