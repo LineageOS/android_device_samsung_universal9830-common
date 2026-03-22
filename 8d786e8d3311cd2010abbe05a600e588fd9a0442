@@ -16,6 +16,24 @@
       "message": "Shouldn\u0027t you wait for QPR3? Rn, it\u0027s not stable on my end and somewhat frequently crashes a bit.",
       "revId": "8d786e8d3311cd2010abbe05a600e588fd9a0442",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1e0ef59_34e1d5cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36094
+      },
+      "writtenOn": "2026-03-22T10:20:12Z",
+      "side": 1,
+      "message": "It\u0027s stable on both exynos990 devices I have, and without it, it still enables pre-QPR1 desktop mode, with which you can\u0027t interact with, because mouse cursor is stuck to phone screen. It was only unstable in QPR0 where it would crash inevitably.",
+      "parentUuid": "e6f16ca2_6130016c",
+      "revId": "8d786e8d3311cd2010abbe05a600e588fd9a0442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
