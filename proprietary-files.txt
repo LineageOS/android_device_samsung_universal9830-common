@@ -207,7 +207,6 @@ vendor/lib64/vendor.samsung.hardware.radio.sim-V1-ndk.so|a2f0be5b802aa317d05f388
 vendor/lib64/libsecnativefeature.so
 
 # Secure Element
-vendor/etc/libse-gto-hal.conf
 vendor/lib64/libsec_semRil.so
 
 # Sensors
