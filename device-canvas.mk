@@ -17,6 +17,16 @@
 # Inherit from common
 $(call inherit-product, device/samsung/universal9830-common/device-common.mk)
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc-service.nxp \
+    android.hardware.secure_element-service.nxp
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/canvas/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    $(LOCAL_PATH)/canvas/configs/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
+    $(LOCAL_PATH)/canvas/configs/nfc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayCanvas
