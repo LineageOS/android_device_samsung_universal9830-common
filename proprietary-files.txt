@@ -211,7 +211,6 @@ vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 # Secure Element
-vendor/etc/libse-gto-hal.conf
 vendor/lib64/libsec_semRil.so
 
 # Sensors
