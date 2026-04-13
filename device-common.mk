@@ -214,6 +214,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.sec \
     com.android.nfc_extras \
+    init.nfc.samsung.rc \
     Tag
 
 PRODUCT_COPY_FILES += \
