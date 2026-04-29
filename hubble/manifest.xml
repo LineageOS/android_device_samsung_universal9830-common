@@ -1,4 +1,4 @@
-<manifest version="1.0" type="device" target-level="6">
+<manifest version="1.0" type="device" target-level="7">
     <hal format="aidl">
         <name>vendor.lineage.livedisplay</name>
         <version>1</version>
