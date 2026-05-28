@@ -1,13 +1,9 @@
 # file.te
 
 # data types
-type data_eden_gpu_file, file_type, data_file_type;
-type data_eden_file, file_type, data_file_type;
 type mediadrm_vendor_data_file, file_type, data_file_type;
 type nfc_vendor_data_file, file_type, data_file_type;
-type npu_vendor_data_file, file_type, data_file_type;
 type per_boot_file, file_type, data_file_type, core_data_file_type;
-type vendor_eden_gpu_vendor_file, file_type, vendor_file_type;
 
 # efs types
 type cpdebug_efs_file, fs_type;
@@ -39,7 +35,6 @@ type sysfs_input_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_input_booster_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_mem_boost_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_mif_writable, sysfs_type, rw_fs_type, fs_type;
-type sysfs_npu_version, sysfs_type, r_fs_type, fs_type;
 type sysfs_pcie_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_v4l, sysfs_type, r_fs_type, fs_type;
 type sysfs_ufs_writable, sysfs_type, rw_fs_type, fs_type;
