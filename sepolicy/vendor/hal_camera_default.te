@@ -10,24 +10,17 @@ allow hal_camera_default {
 
 allow hal_camera_default app_efs_file:file r_file_perms;
 
-allow hal_camera_default data_eden_file:dir r_dir_perms;
-
-allow hal_camera_default {
-    jsqz_device
-    npu_device
-}:chr_file rw_file_perms;
+allow hal_camera_default jsqz_device:chr_file rw_file_perms;
 
 allow hal_camera_default {
     sysfs_battery
     sysfs_camera
-    sysfs_npu_version
     sysfs_sensors
 }:dir r_dir_perms;
 
 allow hal_camera_default {
     sysfs_battery
     sysfs_camera
-    sysfs_npu_version
     sysfs_sensors
 }:file r_file_perms;
 
