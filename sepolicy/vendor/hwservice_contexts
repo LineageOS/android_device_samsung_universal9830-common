@@ -4,8 +4,5 @@ vendor.samsung_slsi.hardware.ExynosA2DPOffload::IExynosA2DPOffload    u:object_r
 # Bluetooth
 vendor.samsung.hardware.bluetooth::ISehBluetooth                      u:object_r:hal_bluetooth_hwservice:s0
 
-# Eden
-vendor.samsung_slsi.hardware.eden_runtime::IEdenruntime               u:object_r:hal_vendor_eden_runtime_hwservice:s0
-
 # GNSS
 vendor.samsung.hardware.gnss::ISehGnss                                u:object_r:hal_gnss_hwservice:s0
