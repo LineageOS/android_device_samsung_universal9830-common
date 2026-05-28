@@ -96,15 +96,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.neuralnetworks</name>
-        <transport>hwbinder</transport>
-        <version>1.3</version>
-        <interface>
-            <name>IDevice</name>
-            <instance>eden-drv</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.soundtrigger</name>
         <transport>hwbinder</transport>
         <version>2.3</version>
@@ -147,15 +138,6 @@
         <version>2.1</version>
         <interface>
             <name>ISehGnss</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung_slsi.hardware.eden_runtime</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IEdenruntime</name>
             <instance>default</instance>
         </interface>
     </hal>
