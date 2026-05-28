@@ -13,3 +13,6 @@ vendor.seHal.              u:object_r:vendor_sehal_prop:s0
 # Wifi
 vendor.wlan.               u:object_r:vendor_wlan_prop:s0
 vendor.qcom.wifi           u:object_r:vendor_wifi_prop:s0
+
+
+vendor.ril.ims.                u:object_r:vendor_ims_prop:s0
