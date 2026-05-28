@@ -8,12 +8,9 @@
 # Data Files
 
 /data/per_boot(/.*)?           u:object_r:per_boot_file:s0
-/data/vendor/eden(/.*)?        u:object_r:data_eden_file:s0
-/data/vendor/eden/gpu(/.*)?    u:object_r:data_eden_gpu_file:s0
 /data/vendor/mediadrm(/.*)?    u:object_r:mediadrm_vendor_data_file:s0
 /data/vendor/nfc(/.*)?         u:object_r:nfc_vendor_data_file:s0
 
-/(vendor|system/vendor)/eden/gpu(/.*)?    u:object_r:vendor_eden_gpu_vendor_file:s0
 
 ##########################
 # Devices
@@ -99,11 +96,9 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.bluetooth@[0-9]\.[0-9]-service-qti                               u:object_r:hal_bluetooth_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint(@[0-9].[0-9])?-service\.samsung-r8s      u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@[0-9]\.[0-9]_strongbox-service                         u:object_r:hal_keymaster_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.neuralnetworks@[0-9]\.[0-9]-service\.eden-drv                    u:object_r:hal_neuralnetworks_eden_drv_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@[0-9]\.[0-9]-service                                        u:object_r:hal_wifi_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@[0-9]\.[0-9]-service\.universal9830                    u:object_r:hal_lineage_livedisplay_exynos_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@[0-9]\.[0-9]-service\.universal9830                          u:object_r:hal_lineage_touch_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.eden_runtime@[0-9]\.[0-9]-service                   u:object_r:hal_vendor_eden_runtime_default_exec:s0
 
 ####################################
 # AIDL
