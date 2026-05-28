@@ -70,6 +70,10 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libeden_ud_gpu.so': blob_fixup()
         .replace_needed('libOpenCL.so', 'libGLES_mali.so')
         .add_needed('libeden_ud_cpu.so'),
+    'vendor/lib64/libgraphgen_ann_import_s.so': blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
     'vendor/lib64/libsec-ril.so': blob_fixup()
         .sig_replace('80 0E 40 F9 E1 03 16 AA 82 0C 80 52 E3 03 15 AA', '80 0E 40 F9 E1 03 16 AA 82 0C 80 52 03 00 80 D2'),
     'vendor/lib64/libsensorlistener.so': blob_fixup()
