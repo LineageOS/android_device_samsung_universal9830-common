@@ -40,6 +40,7 @@ ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.metadata_init_delete_all_keys.enabled=true
 
 # Eden
+log.tag.EDEN=INFO
 log.tag.NPUC=ERROR
 ro.vendor.eden.devices=CPU1_GPU1_NPU2
 ro.vendor.eden.npu.version.path=/sys/devices/platform/npu_exynos/version
