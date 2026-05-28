@@ -83,6 +83,11 @@ ro.surface_flinger.supports_background_blur=1
 ro.vendor.ddk.set.afbc=1
 vendor.hwc.exynos.vsync_mode=0
 
+# IMS
+persist.dbg.allow_ims_off=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # Incremental FS
 ro.incremental.enable=true
 
