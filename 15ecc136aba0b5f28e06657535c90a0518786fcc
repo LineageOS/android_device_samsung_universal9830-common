@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80df88d4_349082b4",
+        "filename": "sepolicy/vendor/file.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-05-29T12:40:32Z",
+      "side": 1,
+      "message": "Move to common sepolicy",
+      "revId": "15ecc136aba0b5f28e06657535c90a0518786fcc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
