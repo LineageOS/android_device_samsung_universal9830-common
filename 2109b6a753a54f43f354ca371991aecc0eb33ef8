@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec11fd50_8e913c2c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-06-01T13:40:49Z",
+      "side": 1,
+      "message": "AUDIO_PRIMARY_HAL_LIBRARY_PATH inside configs/sthal/soundtrigger_conf.h should now use 64 bit libaudioproxy blob.",
+      "revId": "2109b6a753a54f43f354ca371991aecc0eb33ef8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
