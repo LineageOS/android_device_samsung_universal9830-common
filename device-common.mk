@@ -101,10 +101,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service.eden-drv \
     vendor.samsung_slsi.hardware.eden_runtime@1.0-service
 
-# Fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.samsung \
