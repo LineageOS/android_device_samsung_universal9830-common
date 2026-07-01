@@ -148,6 +148,7 @@ BOARD_SECCOMP_POLICY += $(COMMON_PATH)/seccomp
 VENDOR_SECURITY_PATCH := 2025-07-01
 
 # SELinux
+include device/lineage/sepolicy/libion/sepolicy.mk
 include device/lineage/sepolicy/exynos/sepolicy.mk
 BOARD_SEPOLICY_TEE_FLAVOR := teegris
 include device/samsung_slsi/sepolicy/sepolicy.mk
