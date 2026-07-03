@@ -123,6 +123,8 @@ PRODUCT_PACKAGES += \
     gralloc.universal990 \
     libion
 
+$(call soong_config_set_bool,libui,legacy_gralloc,true)
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.samsung \
