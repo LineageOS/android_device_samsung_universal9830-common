@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c55c8885_5e0ae043",
+        "filename": "device-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 353,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-07-04T00:04:44Z",
+      "side": 1,
+      "message": "You should remove this one. OG changes replaces it.",
+      "range": {
+        "startLine": 353,
+        "startChar": 0,
+        "endLine": 353,
+        "endChar": 27
+      },
+      "revId": "07413f86ab010d9b45fa6c3421b84f7df8b5cf75",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
