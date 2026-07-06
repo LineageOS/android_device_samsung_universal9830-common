@@ -292,5 +292,8 @@
 /dev/tzirs              0660   system     system
 /dev/nwfsdev            0660   system     system
 
+# UWB
+/dev/srxxx    0660 uwb uwb
+
 # Voice Trigger Sound (VTS Misc)
 /dev/vts_fio_dev        0660   audioserver   system
