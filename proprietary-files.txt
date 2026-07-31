@@ -182,7 +182,6 @@ vendor/etc/plmn_delta_attaio.bin
 vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
 vendor/lib64/libfloatingfeature.so
-vendor/lib64/libvkmanager_vendor.so
 
 # RIL - from a55x - A556EXXSABYI2
 vendor/bin/hw/rild|e00d12047f9a3ce9eb75f38c6f43fa82564827f3
