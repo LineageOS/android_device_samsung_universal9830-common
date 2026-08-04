@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40f5496c_136757a6",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-08-04T17:29:41Z",
+      "side": 0,
+      "message": "Move to a separate section if you care enough about auto blob pinning with extract-utils.py.",
+      "revId": "e69083dfd74f4245194707ff2b087e156e61b612",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
