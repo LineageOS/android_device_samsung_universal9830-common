@@ -16,6 +16,24 @@
       "message": "Move to a separate section if you care enough about auto blob pinning with extract-utils.py.",
       "revId": "e69083dfd74f4245194707ff2b087e156e61b612",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c66da08d_79b8b508",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-08-05T10:43:41Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "40f5496c_136757a6",
+      "revId": "e69083dfd74f4245194707ff2b087e156e61b612",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
