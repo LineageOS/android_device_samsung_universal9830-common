@@ -96,6 +96,9 @@ vendor.powerhal.disp.idle_support=false
 ro.vendor.epdg.support=true
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
 
+# Wi-Fi
+ro.boot.wificountrycode=00
+
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=180
