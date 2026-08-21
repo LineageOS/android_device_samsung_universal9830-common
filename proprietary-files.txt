@@ -82,9 +82,6 @@ vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
 # Exynos Multi-Format Codec (MFC) Firmware
 vendor/firmware/mfc_fw.bin
 
-# Gatekeeper
-vendor/lib64/hw/gatekeeper.exynos990.so
-
 # GPS
 vendor/bin/hw/gps.sh
 vendor/bin/hw/lhd
