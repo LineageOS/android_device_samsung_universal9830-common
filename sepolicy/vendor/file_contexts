@@ -104,6 +104,7 @@
 ####################################
 # AIDL
 #
+/(vendor|system/vendor)/bin/hw/android\.hardware\.gatekeeper-service\.samsung                                      u:object_r:hal_gatekeeper_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.nfc-service\.nxp                                                 u:object_r:hal_nfc_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.secure_element-service\.nxp                                      u:object_r:hal_secure_element_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.secure_element-service\.thales                                   u:object_r:hal_secure_element_default_exec:s0
