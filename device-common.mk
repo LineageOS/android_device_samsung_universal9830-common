@@ -24,13 +24,17 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0-impl \
-    android.hardware.audio@7.1-impl \
     android.hardware.audio.service \
+    android.hardware.audio@7.1-impl \
     android.hardware.bluetooth.audio-impl \
     audio.bluetooth.default \
     audio.primary.universal990 \
     audio.r_submix.default \
-    SamsungDAP
+    libsamsungSoundbooster_plus \
+    SamsungDAP \
+    SoundBoosterStage
+
+$(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/universal9830-common:lib_SoundBooster_ver1050)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
