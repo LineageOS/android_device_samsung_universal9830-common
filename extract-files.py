@@ -79,6 +79,11 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib/libwvhidl.so': blob_fixup()
         .replace_needed('libprotobuf-cpp-lite-3.9.1.so', 'libprotobuf-cpp-full-3.9.1.so')
         .add_needed('libcrypto_shim.so'),
+    'vendor/lib64/libsec-ril-impl.so': blob_fixup()
+        # Change fallback value of ro.build.version.oneui in SimManager (3 matches)
+        .sig_replace('00 E4 03 91 E1 03 1F 2A', '00 24 05 91 81 58 9D 52')
+        .sig_replace('00 E4 03 91 E1 03 1F 2A', '00 24 05 91 81 58 9D 52')
+        .sig_replace('00 E4 03 91 E1 03 1F 2A', '00 24 05 91 81 58 9D 52'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
