@@ -152,6 +152,7 @@ include device/lineage/sepolicy/exynos/sepolicy.mk
 BOARD_SEPOLICY_TEE_FLAVOR := teegris
 include device/samsung_slsi/sepolicy/sepolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/system_ext/private
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
