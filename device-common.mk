@@ -325,6 +325,7 @@ PRODUCT_PACKAGES += \
     libsqlite.vendor:64 \
     sehradiomanager \
     cbd \
+    ibsec-ril \
     vendor.samsung.rilchip.slsi.rc
 
 PRODUCT_COPY_FILES += \
