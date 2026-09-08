@@ -108,6 +108,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.nfc-service\.nxp                                                 u:object_r:hal_nfc_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.secure_element-service\.nxp                                      u:object_r:hal_secure_element_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.secure_element-service\.thales                                   u:object_r:hal_secure_element_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android.hardware.uwb-service.nxp                                                    u:object_r:hal_uwb_default_exec:s0
 
 ####################################
 # Same-process HAL files and their dependencies
@@ -139,6 +140,9 @@
 /sys/devices/platform/10650000.spi(/.*)/buffer(/.*)    u:object_r:sysfs_sensors_writable:s0
 /sys/devices/platform/10650000.spi(/.*)/poll_delay     u:object_r:sysfs_sensors_writable:s0
 /sys/devices/platform/10650000.spi(/.*)/name           u:object_r:sysfs_sensors_writable:s0
+
+# UWB
+/dev/srxxx                                             u:object_r:uwb_device:s0
 
 # Wakeup devices
 /sys/devices/platform/(.*)/wakeup[0-9]*(/.*)?          u:object_r:sysfs_wakeup:s0

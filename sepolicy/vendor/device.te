@@ -22,5 +22,8 @@ type jsqz_device, dev_type;
 # Soundtrigger
 type vts_fio_device, dev_type;
 
+# UWB
+type uwb_device, dev_type;
+
 # Widevine
 type secmem_device, dev_type;
