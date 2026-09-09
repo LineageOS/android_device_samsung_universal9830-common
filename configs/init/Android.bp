@@ -1,6 +1,26 @@
+soong_config_module_type {
+    name: "gen_fstab_no_sdcard",
+    module_type: "genrule",
+    config_namespace: "universal9830",
+    bool_variables: ["no_sdcard"],
+    properties: ["cmd"],
+}
+
+gen_fstab_no_sdcard {
+    name: "gen_fstab.no_sdcard",
+    srcs: ["etc/fstab.exynos990.in"],
+    out: ["fstab.exynos990"],
+    cmd: "cp $(in) $(out)",
+    soong_config_variables: {
+        no_sdcard: {
+            cmd: "sed '/dwmmc2/d' $(in) > $(out)",
+        },
+    },
+}
+
 prebuilt_etc {
     name: "fstab.exynos990",
-    src: "etc/fstab.exynos990",
+    src: ":gen_fstab.no_sdcard",
     vendor: true,
     ramdisk_available: true,
 }
