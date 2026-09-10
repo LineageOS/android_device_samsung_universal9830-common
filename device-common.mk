@@ -64,6 +64,8 @@ $(call soong_config_set,exynos_audio,predefined_usb_playback_duration,5)
 $(call soong_config_set,exynos_audio,proxy_header,//$(LOCAL_PATH):audio_proxy_headers)
 $(call soong_config_set,exynos_audio,sec_resampler_library,//vendor/samsung/universal9830-common:libSamsungPostProcessConvertor)
 
+$(call soong_config_set_bool,universal9830,no_sdcard,true)
+
 # Boot animation
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
@@ -356,6 +358,7 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/samsung \
+    hardware/samsung/teegris \
     hardware/samsung_slsi-linaro/exynos/cpboot_v3 \
     hardware/samsung_slsi-linaro/exynos/libaudio/audiohal_comv1 \
     hardware/samsung_slsi-linaro/exynos/libaudio/audiohal_comv1/proxy \
