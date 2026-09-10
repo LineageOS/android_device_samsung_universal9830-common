@@ -29,6 +29,7 @@ from extract_utils.utils import (
 namespace_imports = [
     'device/samsung/universal9830-common',
     'hardware/samsung',
+    'hardware/samsung/teegris',
     'hardware/samsung_slsi-linaro/exynos',
     'hardware/samsung_slsi-linaro/graphics',
     'vendor/samsung/universal9830-common'
