@@ -16,6 +16,24 @@
       "message": "Unrelated?",
       "revId": "3f09b9093387b72e854725203341a702bcfd24a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c12c6e5e_8f58c6a4",
+        "filename": "device-common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-09-10T20:58:53Z",
+      "side": 1,
+      "message": "Accident",
+      "parentUuid": "18b370ae_f35f8bd4",
+      "revId": "3f09b9093387b72e854725203341a702bcfd24a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
