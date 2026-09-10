@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18b370ae_f35f8bd4",
+        "filename": "device-common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-09-10T20:52:36Z",
+      "side": 1,
+      "message": "Unrelated?",
+      "revId": "3f09b9093387b72e854725203341a702bcfd24a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
