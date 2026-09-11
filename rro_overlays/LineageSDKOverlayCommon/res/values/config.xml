@@ -5,7 +5,7 @@
 -->
 <resources>
     <!-- Default values for LiveDisplay -->
-    <integer name="config_outdoorAmbientLux">4000</integer>
+    <integer name="config_outdoorAmbientLux">3000</integer>
     <integer name="config_outdoorAmbientLuxHysteresis">400</integer>
 
     <!-- All the capabilities of the LEDs on this device, stored as a bit field.
