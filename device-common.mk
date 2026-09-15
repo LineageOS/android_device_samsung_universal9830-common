@@ -134,6 +134,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.samsung \
     android.hardware.health-service.samsung-recovery
 
+# IMS
+$(call inherit-product, hardware/lineage/generic-ims/ims.mk)
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.exynos990 \
