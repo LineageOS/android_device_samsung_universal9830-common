@@ -106,6 +106,7 @@ genfscon sysfs /devices/virtual/sec/hall_ic/hall_detect                         
 # Touchscreen
 genfscon sysfs /devices/platform/108d0000.hsi2c/i2c-7/7-0048/input/input1/enabled        u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/platform/108d0000.hsi2c/i2c-7/7-0048/input/input2/enabled        u:object_r:sysfs_touchscreen_writable:s0
+genfscon sysfs /devices/platform/108d0000.hsi2c/i2c-5/5-0048/input/input2/enabled        u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/platform/108d0000.hsi2c/i2c-5/5-0020/input/input2/enabled        u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/platform/108d0000.hsi2c/i2c-5/5-0020/input/input3/enabled        u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/platform/108d0000.hsi2c/i2c-5/5-0020/input/input4/enabled        u:object_r:sysfs_touchscreen_writable:s0
