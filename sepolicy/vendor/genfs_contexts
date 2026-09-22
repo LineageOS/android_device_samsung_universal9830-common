@@ -18,20 +18,34 @@ genfscon sysfs /devices/platform/panel_drv@0/backlight/panel/max_brightness     
 genfscon sysfs /devices/platform/battery/power_supply/battery/wc_tx_en                                                u:object_r:sysfs_battery_writable:s0
 genfscon sysfs /devices/platform/battery/power_supply/battery/wc_tx_stop_capacity                                     u:object_r:sysfs_battery_writable:s0
 genfscon sysfs /devices/platform/sec-direct-charger/power_supply/sec-direct-charger/type                              u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-3/3-0066/max77705-charger/power_supply/max77705-charger/type      u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-4/4-0066/max77705-charger/power_supply/max77705-charger/type      u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-5/5-0066/max77705-charger/power_supply/max77705-charger/type      u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-6/6-0066/max77705-charger/power_supply/max77705-charger/type      u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105b0000.hsi2c/i2c-2/2-003b/power_supply/mfc-charger/type                            u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105b0000.hsi2c/i2c-3/3-003b/power_supply/mfc-charger/type                            u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105b0000.hsi2c/i2c-4/4-003b/power_supply/mfc-charger/type                            u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105b0000.hsi2c/i2c-5/5-003b/power_supply/mfc-charger/type                            u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105b0000.hsi2c/i2c-5/5-006f/power_supply/mfc-charger/type                            u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-3/3-0066/max77705-fuelgauge/power_supply/max77705-fuelgauge/type  u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-4/4-0066/max77705-fuelgauge/power_supply/max77705-fuelgauge/type  u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-5/5-0066/max77705-fuelgauge/power_supply/max77705-fuelgauge/type  u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-6/6-0066/max77705-fuelgauge/power_supply/max77705-fuelgauge/type  u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-3/3-0066/max77705-charger/power_supply/otg/type                   u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-4/4-0066/max77705-charger/power_supply/otg/type                   u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-5/5-0066/max77705-charger/power_supply/otg/type                   u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-6/6-0066/max77705-charger/power_supply/otg/type                   u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-3/3-0066/max77705-charger/power_supply/otg/online                 u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-4/4-0066/max77705-charger/power_supply/otg/online                 u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-5/5-0066/max77705-charger/power_supply/otg/online                 u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-6/6-0066/max77705-charger/power_supply/otg/online                 u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-3/3-0066/max77705-charger/power_supply/otg/voltage_max            u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-4/4-0066/max77705-charger/power_supply/otg/voltage_max            u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-5/5-0066/max77705-charger/power_supply/otg/voltage_max            u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-6/6-0066/max77705-charger/power_supply/otg/voltage_max            u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-3/3-0057/power_supply/pca9468-charger/type                        u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-4/4-0057/power_supply/pca9468-charger/type                        u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-5/5-0057/power_supply/pca9468-charger/type                        u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/105c0000.hsi2c/i2c-6/6-0057/power_supply/pca9468-charger/type                        u:object_r:sysfs_battery:s0
 
 # Bluetooth
