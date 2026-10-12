@@ -142,4 +142,6 @@ genfscon sysfs /kernel/mm/vmscan/am_app_launch     u:object_r:sysfs_app_launch_w
 genfscon sysfs /kernel/mm/vmscan/mem_boost_mode    u:object_r:sysfs_mem_boost_writable:s0
 
 # Wifi
+genfscon sysfs /devices/platform/113b0000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/net/p2p0/mtu                      u:object_r:sysfs_net:s0
+genfscon sysfs /devices/platform/113b0000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/net/wlan0/mtu                     u:object_r:sysfs_net:s0
 genfscon sysfs /kernel/boot_wlan/boot_wlan         u:object_r:sysfs_wifi_writable:s0
