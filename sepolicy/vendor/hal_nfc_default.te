@@ -5,4 +5,5 @@ allow hal_nfc_default nfc_vendor_data_file:file create_file_perms;
 
 allow hal_nfc_default vendor_hal_nxpnfc_service:service_manager { find add };
 
+get_prop(hal_nfc_default, vendor_nfc_prop)
 set_prop(hal_nfc_default, vendor_nfc_prop)
