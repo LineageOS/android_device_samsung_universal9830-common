@@ -39,7 +39,6 @@
 /dev/m2m1shot_scaler0    u:object_r:m2m1shot_device:s0
 
 # Fingerprint
-/dev/goodix_fp      u:object_r:fp_sensor_device:s0
 /dev/qbt2000_fd     u:object_r:fp_sensor_device:s0
 /dev/qbt2000_ipc    u:object_r:fp_sensor_device:s0
 
@@ -48,7 +47,6 @@
 /dev/mali[0-9]    u:object_r:gpu_device:s0
 
 # NFC
-/dev/p3         u:object_r:nfc_device:s0
 /dev/p61        u:object_r:nfc_device:s0
 /dev/pn547      u:object_r:nfc_device:s0
 
