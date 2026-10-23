@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45550ab6_134498bb",
+        "filename": "rro_overlays/CarrierSettingsOverlayCommon/res/xml/carrier_config_override.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 32034
+      },
+      "writtenOn": "2026-10-23T17:30:41Z",
+      "side": 1,
+      "message": "iirc this doesn\u0027t exist. See 509611 for the correct way to disable QoS",
+      "revId": "4c457be358905067a626d76bc26fe1c50eab33f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
